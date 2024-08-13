@@ -1,3 +1,3 @@
-module github.com/akhmettolegen/WOW-tcp-server
+module gitlab.com/tez-taxi/api
 
-go 1.22.6
+go 1.21.1

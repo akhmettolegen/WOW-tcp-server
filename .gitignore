@@ -1,0 +1,33 @@
+# env variables
+.env
+
+# Go vendor directory
+**/vendor
+
+# Test output
+**/coverage-report
+**/test-reports
+pipeline-info/
+
+# go-swagger
+**/bin/**
+
+.vscode
+.idea
+**/*.iml
+
+# local gomod cache
+/.mod/
+
+# generated traefik files
+traefik/
+
+# uploads folder contains media: images, icons, etc.
+uploads/services/*
+uploads/tariffs/*
+uploads/images/*
+
+.DS_Store
+
+# database dump file
+dump.sql
